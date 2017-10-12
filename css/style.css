@@ -328,15 +328,14 @@ nav ul a {
 }
 
 #timeline h3 {
-
     position: -webkit-sticky;
     position: sticky;
-    top: 5rem;
-    color: #888;
+    top: 8rem;
+    color: #e87102;
     margin: 0;
     font-size: 1em;
     font-weight: 600;
-    margin-left: -12px;
+    margin-left: -19px;
 
 }
 
@@ -353,6 +352,11 @@ nav ul a {
     position: relative;
     padding-bottom: 0.4em;
     margin-bottom: 2.2em;
+}
+
+#timeline section.hour section h2 {
+
+    color: #e87102;
 }
 
 #timeline section.hour section h4 {
@@ -389,8 +393,8 @@ nav ul a {
     content: '';
     width: 10px;
     height: 10px;
-    background: #C5C5C5;
-    border: 2px solid #FFFFFF;
+    background: #fff;
+    border: 2px solid #e87102;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
